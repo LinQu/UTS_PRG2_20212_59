@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="UTS" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-BCLQG20\ASIRA;Initial Catalog=UTS;Integrated Security=True" SettingsObjectName="UTS_PRG2_20212_59.Properties.Settings" SettingsPropertyName="UTSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ms_karyawan" Member="ms_karyawans">
+    <Type Name="ms_karyawan">
+      <Column Name="id_karyawan" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nama_karyawan" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="jenis_kelamin" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="no_telepon" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="alamat" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
